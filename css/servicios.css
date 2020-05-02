@@ -1,0 +1,665 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	box-sizing:border-box;
+}
+
+#wrapper {
+	background-image: url("../images/logo_fondo.jpg");
+	width: 1349px;
+	height: 225px;
+}
+#wrapper header img {
+    position: absolute;
+    top: 15px;
+	left: 450px;
+    width: 385px;
+    height: 211px;
+}
+#wrapper header nav {
+	width: 1349px;
+	height: 72px;
+	position: absolute;
+  	left: 0px;
+  	top: 225px;
+	background-color: #150926;
+}
+#wrapper header nav ul li{
+	display: inline-block;
+  	text-align: center;
+	padding-right: 55px;
+	padding-left: 60px;
+	padding-top: 2px;
+	height: 18px
+}
+#wrapper header nav ul li a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-family: Book Antiqua;
+	font-size: 26px; 
+}
+#wrapper header nav ul li a:hover {
+	color: #d4b756;
+	text-shadow: 1px 0px 0px #FFFFFF;
+}
+#contenedor{
+	background-color: #A4BCBC;
+	width: 1349px;
+	height: 729px;
+	left: 480px;
+  	
+}
+#contenedor #servicios1 #parking{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	top: 25px;
+	right: 90px;
+}
+#contenedor #servicios1 #parking img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+	
+}
+#contenedor #servicios1 #parking a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	left: 70px
+
+}
+
+#contenedor #servicios1 #parking a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+
+#contenedor #servicios1 #wifi {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 0px;
+	top: 25px;
+	right: 140px
+}
+#contenedor #servicios1 #wifi img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+}
+#contenedor #servicios1 #wifi a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	
+	margin-bottom: 0px;
+	left: 100px
+
+}
+#contenedor #servicios1 #wifi a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+
+
+#contenedor #servicios1 #mascotas{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 0px;
+	top: 25px;
+	right: 230px
+}
+#contenedor #servicios1 #mascotas img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 30px;
+	
+	
+}
+#contenedor #servicios1 #mascotas a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	
+	margin-bottom: 0px;
+	left: 60px
+
+}
+#contenedor #servicios1 #mascotas a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+
+
+#contenedor #servicios1 #comida{
+	position: relative;
+	width: 300px;
+	height: 280px;
+	display: inline-block;
+	padding: 0px;
+	bottom: 300px;
+	left: 720px
+}
+#contenedor #servicios1 #comida img{
+	position: relative;
+	width: 300px;
+	height: 280px;
+	display: inline-block;
+	padding: 40px;
+	right: 25px
+	
+}
+#contenedor #servicios1 #comida a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	bottom: 4px
+
+}
+#contenedor #servicios1 #comida a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+#contenedor #servicios1 #recepcion{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 0px;
+	bottom:  290px;
+	left: 590px
+}
+#contenedor #servicios1 #recepcion img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+}
+#contenedor #servicios1 #recepcion a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	bottom: 5px;
+	left: 40px;
+	
+}
+#contenedor #servicios1 #recepcion a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+
+
+
+ /*SERVICIOS 2*/
+
+
+#contenedor #servicios2 #transporte{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	bottom: 350px;
+	right: 90px
+	
+}
+#contenedor #servicios2 #transporte img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+}
+#contenedor #servicios2 #transporte a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	left: 40px
+
+}
+
+#contenedor #servicios2 #transporte a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+#contenedor #servicios2 #accesibilidad{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	bottom: 350px;
+	right: 165px
+	
+}
+#contenedor #servicios2 #accesibilidad img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+}
+#contenedor #servicios2 #accesibilidad a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	left: 40px
+
+}
+
+#contenedor #servicios2 #accesibilidad a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+
+#contenedor #servicios2 #piscina{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	bottom: 350px;
+	right: 270px
+	
+}
+#contenedor #servicios2 #piscina img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+}
+#contenedor #servicios2 #piscina a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	left: 80px
+
+}
+
+#contenedor #servicios2 #piscina a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+	
+#contenedor #servicios2 #familia {
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	bottom: 670px;
+	left: 650px
+	
+}
+#contenedor #servicios2 #familia img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+}
+#contenedor #servicios2 #familia a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	left: 56px;
+	bottom: 20px
+
+}
+
+#contenedor #servicios2 #familia a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+#contenedor #servicios2 #negocios{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	bottom: 680px;
+	left: 590px
+	
+}
+#contenedor #servicios2 #negocios img{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	padding: 40px;
+	
+}
+#contenedor #servicios2 #negocios a{
+	position: relative;
+	width: 250px;
+	height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+	color: #150926;
+	font-weight: bold;
+	margin-bottom: 0px;
+	left: 28px;
+	bottom: 16px
+
+}
+
+#contenedor #servicios2 #negocios a:hover{
+	color: #FFFFFF;
+	text-shadow: 1px 2px 0px #000000
+}
+
+	
+
+
+
+/*AQUI NO SE TOCA*/
+
+#reservacion{
+	background-color: #A4BCBC;
+	width: 1349px;
+	height: 494px;
+	position: relative;
+	top: 16px;
+}
+#cuadro-reserva {
+	background-color: #150926;
+	position: absolute;
+	top: 22px;
+	margin-bottom: 10px;
+	left: 23px;
+	width: 1300px;
+	height:448px;	
+}
+#cuadro-reserva h1 {
+	color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+	font-weight: bold;
+	width: 300px;
+	position: absolute;
+	left: 300px;
+	top: 0px;
+}
+#cuadro-reserva h2 {
+	color: #d4b756;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	width: 160px;
+	position: absolute;
+	top: 80px; 
+  	left: 80px;
+}
+#cuadro-reserva h3 {
+	color: #d4b756;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	width: 180px;
+	position: absolute;
+	top: 80px;
+	left: 500px;
+}
+#cuadro-reserva h4 {
+	color: #d4b756;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	width: 300px;
+	position: absolute;
+	top: 220px;
+	left: 80px;
+}
+#cuadro-reserva h5 {
+	color: #d4b756;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	width: 270px;
+	position: absolute;
+	top: 210px;
+	left: 500px;
+}
+#cuadro-reserva #cuadro1 img {
+	position: absolute;
+	top: 160px;
+	left: 80px
+}
+#cuadro-reserva #cuadro2 img {
+	position: absolute;
+	top: 160px;
+	left: 500px
+}
+#cuadro-reserva #cuadro3 img {
+	position: absolute;
+	top: 310px;
+	left: 80px
+}
+#cuadro-reserva #cuadro4 img{
+	position: absolute;
+	top: 310px;
+	left: 500px
+}
+#cuadro-reserva #circulo1 img{
+	position: absolute;
+	top: 180px;
+	left: 450px;
+	width: 21px;
+	height: 22px
+}
+#cuadro-reserva #circulo2 img{
+	position: absolute;
+	top: 330px;
+	left: 450px;
+	width: 21px;
+	height: 22px
+}
+#cuadro-reserva #texto-superponer1 {
+	font-family: Montserrat;
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 174px;
+	left: 170px;
+	width: 200px
+}
+#cuadro-reserva #texto-superponer2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 140px;
+	left: 610px;
+	width: 200px
+}
+#cuadro-reserva #texto-superponer3{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 255px;
+	left: 160px;
+	width: 100px
+}
+#cuadro-reserva #texto-superponer4 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	font-weight: bold;
+	position: relative;
+	top: 222px;
+	left: 590px;
+	width: 100px
+}
+#cuadro-reserva #texto-superponer5 {
+	color: #FFFFFF;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 34px;
+	font-weight: bold;
+	position: relative;
+	top: 200px;
+	left: 900px;
+	width: 400px;
+	text-align: center
+}
+#cuadro-reserva #iconos {
+	top: -20px;
+	width: 400px;
+	position: relative;
+	left: 200px;	
+}
+#cuadro-reserva #iconos figure img{
+	position: relative;	
+	left: 680px;
+	padding-left: 42px;
+	padding-right: 0px
+}
+#boton{
+    width: 300px;
+    height: 94px;
+    top: -270px;
+    left: 950px;
+	
+}
+#boton a{
+    position: relative;
+    width: 300px;
+    height: 94px;
+    top: -270px;
+    left: 950px;
+    padding: 20px 0px 20px 43px;
+    color: #000000;
+    text-decoration-line: none;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+    font-size: 34px;
+    background-color: #d4b756;
+    border: 8px solid #d8cb9d;
+    box-shadow: 6px 6px 10px #000000;
+    display: block;
+}
+#boton a:hover {
+	color: #FFFCFC;
+	text-shadow: 3px 3px 2px #964C03;
+}
+#piedepagina {
+	position: absolute;
+	top: 468px;
+	width: 1349px;
+	height: 180px;
+	border-bottom: solid #000000
+}
+
+#piedepagina footer h6{
+	font-family:  Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: absolute;
+	top: 30px;
+	left: 480px;
+	font-size: 24px
+}
+
+#piedepagina footer img {
+	  position: absolute;
+	  left: 430px;
+	  top: 85px;
+	  width: 31px;
+	  height: 31px;
+}
+
+
+
+
+
+
